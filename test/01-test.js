@@ -112,7 +112,7 @@ describe('Adjacency List Algorithms', () => {
                 'a': ['b'],
                 'b': ['a'],
                 'c': ['d'],
-                'd': ['e', 'c'],
+                'd': ['e', 'c'], 
                 'e': ['d'],
             };
             expect(numRegions(graph1)).to.equal(2);
